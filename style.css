@@ -1,0 +1,169 @@
+.logo{
+    height: 12vh;
+    width: 25vh;
+}
+
+.casd{
+    color: pink;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 1.3rem;
+}
+
+.bold{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.bold_pink{
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1rem;
+    color: rgb(213, 20, 117);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+
+.column p{
+    margin-left: 3rem;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #97afc8;
+    min-height: 95vh;
+}
+
+.register{
+    width: 65vh;
+}
+
+.member{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c5dbf2;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    border: 0.2rem solid white;
+    min-height: 15vh;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #c5dbf2;
+    width: 100%;
+    min-height: 73.5vh;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    margin-top: 0.5rem;
+    border: 0.2rem solid white;
+}
+
+button{
+    margin-left: 4px;
+}
+
+.container_logo{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 65%;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
+.inputs p{
+    width: 3rem;
+    display: flex;
+    justify-content: end;
+}
+
+.inputs a{
+    margin-top: 1.5rem;
+}
+
+.container_logo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+}
+
+.login input{
+    margin: 0.2em;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+footer{
+    background-color: #97afc8;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tag{
+    background-color: #819fbc; 
+    height: 1.5rem; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.development, .tag{
+    display: flex;
+    flex-direction: row;
+}
+
+.tag p, a{
+   display: flex;
+   justify-content: center;
+    margin: 0.5rem;
+}
+
+a{
+    color: rgb(80, 80, 234);
+}

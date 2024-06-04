@@ -1,0 +1,1 @@
+document.getElementById("trocar").addEventListener
